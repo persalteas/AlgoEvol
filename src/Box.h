@@ -50,7 +50,7 @@ class Box {
   void visualize_A_in(string filename, double max);
   void visualize_B_in(string filename, double max);
   void visualize_C_in(string filename, double max);
-  void visualize_fitness(string filename, double max);
+  void visualize_fitness(string filename);
   void visualize_genome(string filename);
   
   void study_data(void);
