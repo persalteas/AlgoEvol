@@ -354,7 +354,7 @@ void Box::visualize_C_in(string filename, double max){
 			map_C[i][j] = population[i][j].C() / max;
 		}
 	}
-		
+
 	save_image(map_C, "C", filename);
 	
 	for(size_t i=0; i<W_; i++){
